@@ -1,0 +1,39 @@
+.jumbotron {
+	background-color: hsla(241, 100%, 21%, 0.83);
+	color: #fff;
+}
+
+a:hover {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+img {
+	margin-bottom: 1rem;
+}
+
+a {
+	color: blue;
+}
+
+a:link{ 
+	background-color: #fff;
+	color: #000;
+	border: #000 1px solid;
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	background-color: blue;
+	color: #fff;
+}
+
+.phone {
+	margin-top: -10px;
+}
+
+.footer {
+	text-align: center;
+}
+
