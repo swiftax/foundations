@@ -6,19 +6,22 @@ a:visited{
 	text-decoration: none;
 }
 
+.navbar-default .navbar-nav > li > a {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+
+
 .jumbotron {
 	background-color: hsla(241, 100%, 21%, 0.83);
+	background-image: url('../img/ocean.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: inherit;
 	color: #fff;
-}
+	height: 650px;
 
-.nav > li > a:hover {
-	color: #fff;
-	background-color: hsla(241, 100%, 21%, 0.83);;
-}
-
-.nav > li > a {
-	color: hsla(241, 100%, 21%, 0.83);;
-	background-color: transparent;
 }
 
 a:hover {
@@ -32,6 +35,10 @@ img {
 
 a {
 	color: blue;
+}
+
+.navbar {
+	background-color: transparent;
 }
 
 a:link{ 
@@ -51,8 +58,17 @@ a:hover {
 	margin-top: -10px;
 }
 
-.footer {
-	text-align: center;
-	margin-top: 2rem;
+#portfolio {
+	height: 30rem;
 }
+
+.footer > .jumbotron {
+	text-align: center;
+	height: 256px;
+	background-color: #000;
+	background-image: url('../img/piano.jpeg');
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
 
