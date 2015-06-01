@@ -24,6 +24,10 @@ a:visited{
 
 }
 
+.jumbotron p {
+	color: #fff;
+}
+
 a:hover {
 	list-style-type: none;
 	text-decoration: none;
